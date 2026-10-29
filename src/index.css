@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@700;800&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root{
+  --bg-primary: #FFF5F0;
+  --bg-color2: #FFEFE5;
+  --bg-color3: #FFDECC;
+  --button-color1: #FF8D4D;
+  --button-color2: #FFAE80;
+  --color-white:#FFFFFF;
+  --h-color:#1A1A1A;
+  --text-color1: #262626;
+  --text-color2: #333333;
+  --text-color3: #4C4C4D;
+  --body-font: "Outfit", sans-serif;
+  --h-font: "Raleway", sans-serif;
+}
+body{
+  font-family: var(--body-font);
+  background-color: var(--bg-primary);
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--h-font);
+}
+
+img {
+  display: block;
+  height: auto;
+  object-fit: cover;
+}
+
+li{
+  list-style: none;
+}
+
+h1{
+  font-family: var(--h-font);
+   color: var(--h-color);
+   font-weight: 800;
+   font-size: 3.375rem;
+   line-height: 1.2;
+}
+h2{
+  font-family: var(--h-font);
+   color: var(--h-color);
+   font-weight: 700;
+   font-size: 3rem;
+   line-height: 130%;
+
+}
+.text-medium-18{
+    font-size: 1.125rem;
+    font-weight: 500;
+    color: var(--text-color1);
+}
+
+
+.text-medium-20 {
+    font-size: 1.25rem;
+    font-weight: 500;
+    color: var(--text-color1);
+    line-height: 150%;
+}
+.text-medium-20-c2 {
+    font-size: 1.25rem;
+    font-weight: 500;
+    color: var(--text-color2);
+    line-height: 150%;
+}
+.text-medium-22 {
+    font-size: 1.375rem;
+    font-weight: 500;
+    color: var(--text-color1);
+}
+
+
+
+
+

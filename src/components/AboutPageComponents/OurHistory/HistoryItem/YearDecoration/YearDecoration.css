@@ -1,0 +1,44 @@
+
+.year-decoration {
+  display: grid;
+  grid-template-columns: repeat(3, max-content); 
+  width: fit-content; 
+  .decoration-item {
+    position: relative; 
+    width: 29.10999870300293px;
+    height: 29.10999870300293px; 
+
+    .orange-shape {
+      position: absolute;
+      inset: 0;
+      background-color: #FFDECC; 
+      clip-path: polygon(0 100%, 0 50%, 50% 0, 100% 0, 100% 50%, 50% 100%);
+    }
+
+    .square {
+      position: absolute;
+      top: 0;
+      right: 0;
+      width: 14.549995422363281px;
+      height: 14.549995422363281px;
+      background-color: #FF8D4D;
+    }
+  }
+}
+@media screen and (max-width:992px) {
+    
+.year-decoration {
+  .decoration-item {
+   
+    width: 16.67048454284668px;
+    height: 16.67048454284668px; 
+
+    .square {
+      width: 8.332378387451172px;
+      height: 8.332378387451172px;
+    }
+  }
+}
+
+
+}

@@ -1,0 +1,26 @@
+.special-features-grid {
+  width: 100%;
+  min-width: 0;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+column-gap: 40px;
+  row-gap: 85px;
+  box-sizing: border-box;
+
+
+
+}
+
+@media screen and (max-width: 1440px) {
+    .special-features-grid {
+    column-gap: 40px;
+     row-gap:68px;
+  }
+}
+
+  @media screen and (max-width: 992px) {
+     .special-features-grid {
+    grid-template-columns: 1fr; 
+  
+    row-gap: 68px;
+  }}

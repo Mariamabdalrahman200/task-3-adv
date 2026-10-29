@@ -1,0 +1,32 @@
+.members-title-style{
+     font-size: 58px;
+
+}
+.members-desc-style{
+        font-size: 20px;
+    max-width: 1096px;
+
+}
+
+
+@media screen and (max-width: 1440px) {
+.members-title-style{
+     font-size: 48px;
+
+}
+.members-desc-style{
+        font-size: 16px;
+    max-width: 880px;
+}
+}
+@media screen and (max-width: 992px) {
+.members-title-style{
+     font-size: 38px;
+
+}
+.members-desc-style{
+    max-width: 358px;
+
+
+}
+}

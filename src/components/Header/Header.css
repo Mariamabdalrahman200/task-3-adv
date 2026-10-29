@@ -1,0 +1,12 @@
+header{
+   
+    width: 94%;
+    margin: 0 auto;
+}
+@media screen and (max-width: 1440px) {
+   header{
+   
+     width: 93.055%;
+      margin: 0 auto;
+}
+}

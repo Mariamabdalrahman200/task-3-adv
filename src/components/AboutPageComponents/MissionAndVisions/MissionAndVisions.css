@@ -1,0 +1,45 @@
+.mission-and-visions-cards{
+    display: flex;
+    flex-direction: row;
+    gap: 60px;
+}
+.mission-title-style{
+    font-size: 48px;
+    
+}
+
+.mission-desc-style{
+    font-size: 16px;
+    max-width: 996px;
+
+}
+
+@media screen and (max-width: 1440px) {
+.mission-and-visions-cards{
+    gap: 40px;
+} 
+
+.mission-desc-style{
+    font-size: 18px;
+    max-width: 880px;
+
+}
+}
+
+@media screen and (max-width: 992px) {
+.mission-and-visions-cards{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+} 
+.mission-title-style{
+    font-size: 38px;
+    
+}
+
+.mission-desc-style{
+    font-size: 18px;
+    max-width: 358px;
+
+}
+}

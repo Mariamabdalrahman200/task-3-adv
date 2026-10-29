@@ -1,0 +1,34 @@
+.features-title-style{
+    font-size: 58px;
+    
+}
+
+.features-desc-style{
+    font-size: 20px;
+    max-width: 992px;
+
+}
+
+@media screen and (max-width: 1440px) {
+    .features-title-style{
+    font-size: 48px;
+    
+}
+
+.features-desc-style{
+    font-size: 16px;
+    max-width: 878px;
+
+}
+}
+@media screen and (max-width: 992px) {
+    .features-title-style{
+    font-size:38px;
+    
+}
+
+.features-desc-style{
+    max-width: 358px;
+
+}
+}

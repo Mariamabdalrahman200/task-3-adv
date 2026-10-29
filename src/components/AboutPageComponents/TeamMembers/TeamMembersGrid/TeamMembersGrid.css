@@ -1,0 +1,22 @@
+.team-members-grid {
+  width: 100%;
+  min-width: 0;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  column-gap: 50px;
+  row-gap: 50px;
+}
+
+
+@media screen and (max-width: 1440px) {
+    .team-members-grid {
+  column-gap: 40px;
+  row-gap: 40px;
+}
+ 
+}
+@media screen and (max-width: 992px) {
+  .team-members-grid {
+    grid-template-columns: 1fr; 
+  }
+}
