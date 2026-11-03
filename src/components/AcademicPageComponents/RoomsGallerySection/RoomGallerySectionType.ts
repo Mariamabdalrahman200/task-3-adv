@@ -1,13 +1,17 @@
-export type RoomGalleryCategory =
-  | "classrooms"
-  | "library"
-  | "science-lab"
-  | "computer-lab"
-  | "garden";
+import type { ReactNode } from "react";
 
-export interface GalleryCardProps {
+export type RoomGalleryCategory =
+   | "Classrooms"| "Library"| "Science Lab" | "Computer Lab" | "Garden and Nature Area";
+
+  export interface GalleryCardData {
   category: RoomGalleryCategory;
   title: string;
   description: string;
   images: string[];
+}
+
+export interface GalleryCardGridProps {
+  cards: GalleryCardData[];
+  prevIcon: ReactNode;
+  nextIcon: ReactNode;
 }
